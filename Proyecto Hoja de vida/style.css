@@ -1,0 +1,12 @@
+:root{
+    --xiketic: #1c0f13ff;
+    --blue-green-color-wheel: #034c3cff;
+    --slate-gray: #6e7e85ff;
+    --opal: #b7ceceff;
+    --platinum: #e2e2e2ff;
+}
+
+
+body{
+    background-color: var(--xiketic);
+}
