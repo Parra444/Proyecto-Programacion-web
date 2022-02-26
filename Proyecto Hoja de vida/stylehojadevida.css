@@ -147,6 +147,7 @@ font-size: 72px;}
       "sobremi conocimientos apt";
     grid-area: info;
     column-gap: 5rem;
+    height: 400px;
   }
   
   .conocimientos { grid-area: conocimientos;
@@ -200,7 +201,6 @@ font-size: 72px;}
   .study{
     font-size: 72px;
     color:#034C3C;
-    
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
   }
 
