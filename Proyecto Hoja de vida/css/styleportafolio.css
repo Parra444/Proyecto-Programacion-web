@@ -5,6 +5,14 @@
     --slate-gray: #6e7e85ff;
     --opal: #b7ceceff;
     --platinum: #e2e2e2ff;
+    --hover: rgb(163, 14, 14);
+}
+/*ESTILO PARA LINKS*/
+a:hover {color: var(--hover)}
+
+a{
+    text-decoration: none;
+    color: #B7CECE;
 }
 
 body{
@@ -21,7 +29,7 @@ section{
     margin: 15px;
 }
 
-
+/*ESTILO DEL HEADER*/
 header{
     width: 1108px;
     height: 200px;
@@ -40,23 +48,6 @@ header{
     top: -20px;
     border: 3px solid #B7CECE;
     border-radius: 197px;
-}
-
-.logogit{
-    position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 1300px;
-    top: 32px;
-}
-
-.copyright{
-    color: #B7CECE;
-    font-size: 10px;
-}
-
-footer{
-    background-color: red;
 }
 
 .portafolio{
@@ -85,6 +76,7 @@ footer{
     color: #034C3C;
 }
 
+/*ITEMS*/
 .taller{
     
     position: absolute;
@@ -119,6 +111,16 @@ footer{
     box-sizing: border-box;
     border-radius: 50px;
 }
+
+/*ESTILO PARA LAS LISTAS*/
+
+ul
+{
+    font-size: 32px;
+    line-height: 54px;
+    color: #B7CECE;
+}
+
 .tituloreto{
     position: absolute;
     width: 127px;
@@ -132,13 +134,14 @@ footer{
 
 .ulreto{
     position: absolute;
-    width: 153px;
+    width: 300px;
     height: 168.88px;
     left:110px;
     top: 100px;
     font-style: normal;
     font-weight: 250;
 }
+
 
 .tituloconsulta{
     position: absolute;
@@ -166,25 +169,17 @@ footer{
     top: 0px;
     font-size: 48px;
 }
-ul
-{
-    font-size: 32px;
-    line-height: 54px;
-    color: #B7CECE;
-}
+
 .ultaller{
     position: absolute;
     width: 300px;
     height: 168.88px;
-    left:90px;
+    left:50px;
     top: 100px;
 }
 
-a{
-    text-decoration: none;
-    color: #B7CECE;
-}
 
+/*FOOTER*/
 footer{
     position: absolute;
     width: 100%;
@@ -193,4 +188,20 @@ footer{
     top: 854px;
 
     background: #034C3C;
+}
+
+.logogit{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1300px;
+    top: 32px;
+}
+
+.copyright{
+    color: #B7CECE;
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    left: 15px;
 }

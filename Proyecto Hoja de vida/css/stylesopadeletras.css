@@ -1,0 +1,60 @@
+@import url('http://fonts.cdnfonts.com/css/gidole');
+:root{
+    --xiketic: #1c0f13ff;
+    --blue-green-color-wheel: #034c3cff;
+    --slate-gray: #6e7e85ff;
+    --opal: #b7ceceff;
+    --platinum: #e2e2e2ff;
+    --hover: rgb(163, 14, 14);
+}
+
+
+body{
+    background-color: var(--xiketic);
+    font-family: 'Gidole', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.tabla1{
+    background-color: var(--opal);
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: white;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    width: 400px;
+    position: absolute;
+    left: 35%;
+
+}
+table td{
+    background-color: rgb(154, 172, 172);
+    height: 60px;
+}
+table th{
+    width: 100px;
+    height: 30px;
+}
+
+div{
+    height: 60px;
+    text-align: center;
+    
+}
+
+div span{
+    background-color: rgb(154, 172, 172);
+    padding: 12px;
+    font-size: 32px;
+    border: 1px solid;
+    border-color: white;
+    width: 50px;
+    height: 50px;
+}
