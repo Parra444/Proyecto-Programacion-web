@@ -6,6 +6,7 @@
     --opal: #b7ceceff;
     --platinum: #e2e2e2ff;
     --hover: rgb(163, 14, 14);
+    --background: https://static.vecteezy.com/system/resources/previews/002/104/953/non_2x/smoke-on-a-black-background-free-photo.jpg;
 }
 /*ESTILO PARA LINKS*/
 a:hover {color: var(--hover)}

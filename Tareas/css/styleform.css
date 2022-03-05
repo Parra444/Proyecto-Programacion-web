@@ -1,0 +1,35 @@
+@import url('http://fonts.cdnfonts.com/css/gidole');
+:root{
+    --xiketic: #1c0f13ff;
+    --blue-green-color-wheel: #034c3cff;
+    --slate-gray: #6e7e85ff;
+    --opal: #b7ceceff;
+    --platinum: #e2e2e2ff;
+    --hover: rgb(163, 14, 14);
+}
+body{
+    background-image: url(/Tareas/imgs/);
+    font-family: 'Gidole', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: var(--opal);
+}
+form{
+    padding: 15px;
+    width: 300px;
+    position: absolute;
+    left: 40%;
+    border: 2px solid var(--opal);
+    border-radius: 30px;
+    font-size: 20px;
+
+}
+input{
+    margin: 5px;
+}
+h1{
+    margin-left: 20px;
+}
