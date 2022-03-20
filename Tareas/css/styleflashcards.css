@@ -1,0 +1,96 @@
+@import url('http://fonts.cdnfonts.com/css/gidole');
+:root{
+    --xiketic: #1c0f13ff;
+    --blue-green-color-wheel: #034c3cff;
+    --slate-gray: #6e7e85ff;
+    --opal: #b7ceceff;
+    --platinum: #e2e2e2ff;
+}
+img{
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+body{
+    background-color: var(--xiketic);
+    font-family: 'Gidole', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+    color: var(--opal);
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(/Proyecto-Programacion-web/Tareas/imgs/khalid-elkady-5deVG6ye9as-unsplash.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.titulo{
+    font-size: 40px;
+    padding: 20px;
+}
+
+.conteiner{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+.fila{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+}
+
+
+.carta{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+}
+
+.carta div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backface-visibility: hidden;
+    transition: 1s;
+    padding: 20px;
+}
+
+.carta .front{
+    background: var(--opal);
+    color: var(--xiketic);
+    border-radius: 20px;
+    transform: perspective(500px) rotateY(0deg);
+    font-size: 35px;
+    flex-direction: column;
+}
+
+.carta .back{
+    background-color: var(--xiketic);
+    border: 3px solid #B7CECE;
+    border-radius: 20px;
+    
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.carta:hover .front{
+    transform: perspective(500px) rotateY(180deg);
+}
+
+.carta:hover .back{
+    transform: perspective(500px) rotateY(360deg);
+}

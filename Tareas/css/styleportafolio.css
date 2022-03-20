@@ -32,6 +32,7 @@ section{
 
 /*ESTILO DEL HEADER*/
 header{
+    display: flex;
     width: 1108px;
     height: 200px;
     background: #B7CECE;
