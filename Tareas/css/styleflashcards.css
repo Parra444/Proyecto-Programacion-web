@@ -72,7 +72,8 @@ body{
 
 .carta .front{
     background: var(--opal);
-    color: var(--xiketic);
+    color:  var(--xiketic);
+    border: 3px solid white;
     border-radius: 20px;
     transform: perspective(500px) rotateY(0deg);
     font-size: 35px;
