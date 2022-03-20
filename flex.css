@@ -1,0 +1,39 @@
+body{
+    position: relative;
+}
+
+.contenedor{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.columna50{
+    background-color: red;
+    width: 46%;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.columna33{
+    background-color: blue ;
+    width: 26%;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 20px;
+}
+.columna70{
+    background-color: green;
+    width: 66%;
+    margin: 5px;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.fila{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
