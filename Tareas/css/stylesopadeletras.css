@@ -3,7 +3,7 @@
     --xiketic: #1c0f13ff;
     --blue-green-color-wheel: #034c3cff;
     --slate-gray: #6e7e85ff;
-    --opal: #b7ceceff;
+    --opal: rgb(183, 206, 206);
     --platinum: #e2e2e2ff;
     --hover: rgb(163, 14, 14);
 }
@@ -13,7 +13,7 @@ h1{
 }
 
 body{
-    background-color: var(--xiketic);
+    background-image: url(/Proyecto-Programacion-web/Tareas/imgs/aditya-vyas-SzI3K6fTcxI-unsplash\ \(1\).jpg);
     font-family: 'Gidole', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -22,19 +22,24 @@ body{
     text-align: center;
     align-items: center;
     justify-items: center;
+    justify-content: center;
+    justify-self: center;
 }
 
 .tabla1{
-    background-color: var(--opal);
+    background-color: rgb(183, 206, 206, 0.6) ;
     border: 3px solid;
     border-radius: 10px;
     border-color: white;
-    text-align: center;
+    text-align: left;
     align-items: center;
     padding: 50px;
-    width: 650px;
+    width: 680px;
     position: absolute;
-    left: 25%;
+    left: 20%;
+    justify-items: center;
+    justify-content: center;
+    justify-self: center;
 
 }
 table td{
@@ -52,11 +57,31 @@ div{
     
 }
 
-span{
+span:hover{
+    background-color: var(--hover);
+    color: var(--platinum);
+}
+
+
+
+section span{
     background-color: rgb(154, 172, 172);
-    padding: 12px;
-    font-size: 32px;
+    padding: 15px;
+    margin: 3px;
+    font-size: medium;
+    width: 100px;
+    height: 100px;
     border: 1px solid;
     border-color: white;
-    
+}
+
+.palabras{
+    position: absolute;
+    top: 0;
+    left: -180px;
+    color:var(--opal);
+}
+
+li{
+    text-decoration: none;
 }
